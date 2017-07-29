@@ -5,7 +5,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
-    entry: './src/gui/index.js',
+    entry: './src/gui/index.jsx',
     resolve: {
         extensions: ['.js', '.jsx']
     },
