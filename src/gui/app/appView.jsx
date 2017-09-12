@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export default ({screens, selectedScreenId, selectScreen}) => {
+export const AppView = ({screens, selectedScreenId, selectScreen}) => {
     const VisibleScreen = screens.find(screen => screen.id === selectedScreenId).component;
     return (
         <div>
